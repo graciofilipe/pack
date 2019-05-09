@@ -10,7 +10,7 @@ setuptools.setup(
     author_email="author@example.com",
     description="A small example package",
     long_description=long_description,
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/graciofilipe/pack",
     packages=setuptools.find_packages(),
     install_requires=['numpy'],
     classifiers=[
