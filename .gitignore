@@ -1,0 +1,7 @@
+.idea/
+.venv/
+build/
+dist/
+my_pack.egg-info/
+my_pack/__pycache__/
+tests/__pycache__/
