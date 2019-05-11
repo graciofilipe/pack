@@ -13,9 +13,6 @@ setuptools.setup(
     url="https://github.com/graciofilipe/pack",
     packages=setuptools.find_packages(),
     install_requires=['numpy'],
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
+    entry_points={'console_scripts':
+                      ['add_two=my_pack.main_run:main']}
 )
